@@ -9,6 +9,7 @@ CREATE TABLE Users (
     email VARCHAR(100)
 );
 
+
 -- Insert data
 INSERT INTO Users (user_id, name, email) VALUES
 (1, 'Aarav', 'aarav@gmail.com'),
