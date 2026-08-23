@@ -8,7 +8,7 @@ CREATE TABLE Employees (
     salary INT
 );
 
--- Insert values into table
+-- Insert data
 INSERT INTO Employees VALUES
 (1, 'Aarav', 25000),
 (2, 'Neha', 30000),
