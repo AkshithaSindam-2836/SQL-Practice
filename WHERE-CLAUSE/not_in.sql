@@ -8,7 +8,7 @@ CREATE TABLE Orders (
     status VARCHAR(30)
 );
 
--- Insert values into table
+-- Insert data
 INSERT INTO Orders VALUES
 (1, 101, 'Completed'),
 (2, 102, 'Cancelled'),
