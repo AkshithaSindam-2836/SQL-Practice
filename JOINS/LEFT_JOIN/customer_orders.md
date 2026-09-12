@@ -19,41 +19,26 @@ If a customer has not placed any orders, their order-related columns should disp
 
 
 **Customers**
-
-
-+-------------+---------+
-| customer_id | name    |
-+-------------+---------+
-| 1           | Alice   |
-| 2           | Bob     |
-| 3           | Charlie |
-+-------------+---------+
-
+| customer_id | name |
+| :--- | :--- |
+| 1 | Alice |
+| 2 | Bob |
+| 3 | Charlie |
 
 **Orders**
-
-
-
-+----------+-------------+--------+
 | order_id | customer_id | amount |
-+----------+-------------+--------+
-| 101      | 1           | 500    |
-| 102      | 1           | 300    |
-| 103      | 2           | 200    |
-+----------+-------------+--------+
+| :--- | :--- | :--- |
+| 101 | 1 | 500 |
+| 102 | 1 | 300 |
+| 103 | 2 | 200 |
 
-\*\***Expected Output**\*\*
-
-
-+-------------+---------+----------+--------+
-| customer_id | name    | order_id | amount |
-+-------------+---------+----------+--------+
-| 1           | Alice   | 101      | 500    |
-| 1           | Alice   | 102      | 300    |
-| 2           | Bob     | 103      | 200    |
-| 3           | Charlie | NULL     | NULL   |
-+-------------+---------+----------+--------+
-
+**Expected Output**
+| customer_id | name | order_id | amount |
+| :--- | :--- | :--- | :--- |
+| 1 | Alice | 101 | 500 |
+| 1 | Alice | 102 | 300 |
+| 2 | Bob | 103 | 200 |
+| 3 | Charlie | NULL | NULL |
 
 **Solution :**
 
