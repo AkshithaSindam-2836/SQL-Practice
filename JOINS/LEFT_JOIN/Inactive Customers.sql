@@ -8,7 +8,7 @@ Given two tables, `Customers` and `Orders`, write an SQL query to find the names
 
 **Customers**
 
-| **id** | **name** |
+|**id**|**name**|
 | :--- | :--- |
 | 1 | Joe |
 | 2 | Henry |
@@ -17,14 +17,14 @@ Given two tables, `Customers` and `Orders`, write an SQL query to find the names
 
 **Orders**
 
-| **id** | **customerId** |
+|**id**|**customerId**|
 | :--- | :--- |
 | 1 | 3 |
 | 2 | 1 |
 
 **Output**
 
-| **Customers** |
+|**Customers**|
 | :--- |
 | Henry |
 | Max |
