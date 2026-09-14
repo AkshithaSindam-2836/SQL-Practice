@@ -24,7 +24,7 @@ Given two tables, `Customers` and `Orders`, write an SQL query to find the names
 
 **Output**
 
-|**Customers**|
+| Customers |
 | :--- |
 | Henry |
 | Max |
